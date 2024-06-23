@@ -7,6 +7,7 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
   use "nvim-lua/plenary.nvim"
+  use "lervag/vimtex"
   use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use 'jalvesaq/Nvim-R'
   use {
