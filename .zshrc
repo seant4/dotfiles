@@ -105,3 +105,4 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(zoxide init zsh)"
+harpoon:setup()

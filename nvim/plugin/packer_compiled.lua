@@ -79,10 +79,10 @@ _G.packer_plugins = {
     path = "/home/seant/.local/share/nvim/site/pack/packer/start/Nvim-R",
     url = "https://github.com/jalvesaq/Nvim-R"
   },
-  ["nvim-treesitter"] = {
+  harpoon = {
     loaded = true,
-    path = "/home/seant/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+    path = "/home/seant/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -94,15 +94,15 @@ _G.packer_plugins = {
     path = "/home/seant/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["popup.nvim"] = {
+    loaded = true,
+    path = "/home/seant/.local/share/nvim/site/pack/packer/start/popup.nvim",
+    url = "https://github.com/nvim-lua/popup.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/seant/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  vimtex = {
-    loaded = true,
-    path = "/home/seant/.local/share/nvim/site/pack/packer/start/vimtex",
-    url = "https://github.com/lervag/vimtex"
   }
 }
 
